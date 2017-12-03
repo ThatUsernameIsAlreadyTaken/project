@@ -70,6 +70,11 @@ div.tab button.active {
 	display: none;
 }
 
+img{
+	height:400px;
+}
+
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
