@@ -4,8 +4,8 @@
 		<title>Graham Bradford Schedule</title>
 	</head>
 	<body>
-		<input type="text" id='clock'>
-		<button onclick='getsch()'>Get Schedule</button>
+		<input type="text" id='clock' autofocus>
+		<button id="gsch" onclick='getsch()'>Get Schedule</button>
 	</body>
 	<script>
 		function getsch(){
@@ -13,5 +13,12 @@
 			var xx = x + ".html";
 			window.open(xx);
 		}
+		var input = document.getElementById("clock");
+		input.addEventListener("keyup", function(event){
+			if (event.keyCode === 13){
+				event.preventDefault();
+				document.getElementById("gsch").click();
+				}
+			});
 	</script>
 </html>
