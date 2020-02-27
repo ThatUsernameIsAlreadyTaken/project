@@ -1,0 +1,20 @@
+body {
+    background-color: Tomato;
+}
+
+div {
+  margin: auto;
+  width: 50%;
+  border: 5px solid green;
+  padding: 10px;
+}
+input {
+	text-align: center;
+	font-size: 50px;
+	width: 49%
+}
+button {
+	text-align: center;
+	font-size: 50px;
+	width: 49%;
+}
